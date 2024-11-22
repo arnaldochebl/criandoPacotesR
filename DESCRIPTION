@@ -20,3 +20,5 @@ Imports:
     readr,
     rvest,
     stringr
+URL: https://github.com/arnaldochebl/criandoPacotesR
+BugReports: https://github.com/arnaldochebl/criandoPacotesR/issues
