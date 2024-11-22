@@ -64,3 +64,10 @@ remotes::install_github("arnaldochebl/criandoPacotesR") #instala o pacote que cr
 #usa pacote criado
 library(criandoPacotesR)
 iffhs
+
+# o github actions usa uma maquina virtual do proprio github que ate alguns minutos por  mes é gratis
+usethis::use_readme_rmd() #cria arquivo readme.Rmd
+usethis::use_github_action_check_standard() # adiciona umas badges no readme
+# editar arquivo readme
+#fazer o knit do readme (vai ccriar .md e .html)
+# o comando action de cima tbm cria uma pasta .github com um arquivo de workflow que é um arquivo de configuracao do github actions
