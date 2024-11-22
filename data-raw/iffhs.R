@@ -71,3 +71,6 @@ usethis::use_github_action_check_standard() # adiciona umas badges no readme
 # editar arquivo readme
 #fazer o knit do readme (vai ccriar .md e .html)
 # o comando action de cima tbm cria uma pasta .github com um arquivo de workflow que é um arquivo de configuracao do github actions
+
+#tem jeito de já fazer o projeto rodar de forma automatizada (acho que pelo github actions)
+# ja deixar automatizando algumas bases de dados ou fluxo de teste, rodar ETL de uma base, atualizar app do shiny com novos dados ou features
