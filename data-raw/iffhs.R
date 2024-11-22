@@ -57,3 +57,10 @@ usethis::use_package("stringr")
 usethis::use_git() #precisa ter git instalado e ele precisa estar no meu path
 # escolher opção 3 # para comitar eles e depois reinicia sessão do R
 usethis::use_github() #cria um repositorio na minha conta, escolho pelo parametro se é publico ou privado e ja deixa todos os arquivos lá
+
+remotes::install_github("arnaldochebl/criandoPacotesR") #instala o pacote que criei a partir do repositorio do github
+# apartei 3 depois para nao fzr update de nenhum...
+
+#usa pacote criado
+library(criandoPacotesR)
+iffhs
